@@ -1,0 +1,15 @@
+
+mat-form-field, button {
+  width: 300px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+}
+
+
+#signup-form {
+  margin-top: 2vh;
+}
+
