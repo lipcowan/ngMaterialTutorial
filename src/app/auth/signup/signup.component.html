@@ -1,5 +1,11 @@
 <section id="signup-form" fxLayout="column" fxLayoutAlign="center center" >
-  <form fxLayout="column" fxLayouAlign="center center" fxLayoutGap="2vh" #fsup="ngForm" (ngSubmit)="onSubmit(fsup)">
+  <form
+    fxLayout="column"
+    fxLayouAlign="center center"
+    fxLayoutGap="2vh"
+    #fsup="ngForm"
+    (ngSubmit)="onSubmit(fsup)"
+  >
     <mat-form-field>
       <input
         type="email"
