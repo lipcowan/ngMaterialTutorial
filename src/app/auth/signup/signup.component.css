@@ -4,3 +4,6 @@ mat-form-field, #signupBtn  {
   max-width: 80vw;
 }
 
+#signup-form {
+  margin-top: 2vh;
+}
