@@ -7,11 +7,6 @@ mat-sidenav {
   min-width: 150px;
 }
 
-mat-toolbar {
-  min-width: 100vw;
-  height: auto;
-}
-
 a {
   text-decoration: none;
   color: white;
@@ -21,8 +16,15 @@ a:hover{
   color: orange;
 }
 
+
+
 #navigation-items{
   list-style: none;
   padding:0;
   margin:0;
+}
+
+.nav-caption{
+  display: inline-block;
+  padding-left: 1vh;
 }
